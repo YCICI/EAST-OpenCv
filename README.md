@@ -6,7 +6,9 @@
  提供给后来的朋友们下载。
  
  #### images detection
- 检测的图片放在images/文件夹里，可以自行修改； 
+ 
+ 检测的图片放在images/文件夹里，可以自行修改；  
+ 
  frozen_east_text_detection.pb是原论文作者训练好的模型，在文件夹中一并下载
 ````
  python text_detection.py --image images/lebron_james.jpg --east frozen_east_text_detection.pb
